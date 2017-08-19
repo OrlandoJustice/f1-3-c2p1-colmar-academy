@@ -1,0 +1,191 @@
+@media only screen and (min-width: 760px) {
+  header nav ul li:last-child {
+    background-color: #191970;
+    color: #ffffff;
+    border-radius: 100px;
+    padding: 0.5rem .9rem;
+  }
+
+  header nav ul li:hover {
+    background-color: #ff9966;
+    transition: background-color 500ms ease-in;
+    color: #ffffff;
+    border-radius: 100px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  header nav ul li:last-child:hover{
+    background-color: #337ab7;
+    border-radius: 100px;
+    padding: 0.5rem .9rem;
+  }
+
+  footer a:hover {
+    font-weight: bold;
+    text-decoration: italic;
+    color: #800080;
+  }
+
+  .button:hover {
+    background-color: #8E7956;
+    transition: background-color 300ms ease-in-out 20ms;
+    cursor: pointer;
+  }
+  
+  .button:hover #start {
+    display: none;
+  }
+
+  .button:hover #go {
+    display: inline;
+  }
+
+  .practice a:hover {
+    color: #ff0000;
+  }
+
+  .practice td table tr:nth-child(1n + 3) {
+    background-color: #d3d3d3;
+  }
+
+  .thesis td table tr:nth-child(2n + 1) {
+    background-color: #d3d3d3;
+  }
+
+  .practice td table tr:hover, .thesis td table tr:hover {
+    background-color: #ffe4e1;
+  }
+  
+  .course:hover {
+    box-shadow: 5px 5px 3px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .translucent:hover {
+    opacity: .9;
+  }
+}
+
+@media only screen and (max-width: 760px) {  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav ul li img:hover{
+    background-color: #d3d3d3;
+    box-shadow: 0 0 20px #808080;
+  }
+  
+  header .mobile {
+    display: block;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  footer {
+    background-color:#ffffff;
+    padding: 1rem 0;
+    border: 0px solid #ffffff;
+  }
+
+  video {
+    padding-bottom: 1.5rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .button:hover {
+    background-color: #8E7956;
+    transition: background-color 300ms ease-in-out 20ms;
+  }
+  
+  .button:hover #start {
+    display:none;
+  }
+
+  .button:hover #go {
+    display:inline;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .wrapperG {
+    background-color: #d3d3d3;
+  }
+
+  .wrapperY {
+    background-color: #fffef9;
+  }
+
+  .learn {
+    background-color: #d3d3d3;
+  }
+
+  .learn img {
+    width: 100%;
+  }
+
+  .button {
+    width: 50%;
+    margin: 0 auto 1rem auto;
+  }
+
+  .practice .vertical {
+    padding: 16px 16px;
+  }
+
+  .practice .indent {
+    padding: 32px 16px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .column h1 {
+    font-size: 2rem;
+    padding: 2rem 1rem;
+  }
+  
+  .course-blocks {
+     display: block;
+     align-items: center;
+     background-color: #d3d3d3;
+     font-size: 1.3rem;
+     font-weight: 600;
+     width: 80%;
+     padding: 1rem;
+     margin: 0 auto .5rem auto;
+   }
+  
+   .course-blocks:hover {
+     background-color: #008b8b;
+     color: #ffffff;
+     transition: background-color 300ms ease-in, color 200ms linear;
+   }
+   
+   .thesis h1 {
+     font-size: 2rem;
+     padding: 2rem 0 1rem 0;
+   }
+}

@@ -1,0 +1,249 @@
+/* Universal Settings */
+html {
+  font-family: Lato, Ubuntu, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 64px;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  z-index: 5;
+}
+
+header div {
+  padding-left: 24px;
+}
+
+header nav {
+  padding-right: 24px;
+}
+
+nav ul li {
+  display: inline;
+  font-size: 1.5rem;
+  font-size: 1.6vw; 
+  padding-left: 16px;
+  text-align: center;
+  padding: 0.5rem .9rem;
+}
+
+table {
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #4a4a4a;
+}
+
+footer {
+  border-top: 1px solid #d3d3d3;
+  background-color:#fffef9;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .copyright {
+  padding: 1rem 0 0 1.5rem;
+}
+
+footer nav {
+  padding: 1rem 1.5rem 0 0;
+  font-size: .5rem;
+}
+
+footer nav ul li {
+  font-size: 1rem;
+}
+
+/* Classes */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 4rem;
+}
+
+.logo a {
+  font-size: 2rem;
+}
+
+.wrapperG {
+  background-color: #d3d3d3;
+  padding: 32px 24px;
+}
+
+.wrapperY {
+  background-color: #fffef9;
+  padding: 32px 24px;
+}
+
+.learn img, .practice img, .courses img, .thesis img {
+  width: 100%;
+}
+
+.learn h1, .learn h3, .learn div {
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+.practice h2 {
+  padding-top: 2rem;
+}
+
+.practice p, .thesis p {
+  padding: 1rem 0;
+}
+
+.practice td table img, .thesis td table img {
+  padding: 1rem 1rem;
+}
+
+.practice a {
+  color: #3366ff;
+}
+
+.courses h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.courses .row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding: 0 3rem;
+}
+
+.course  {
+  background-color: #ffffff;
+  margin: 0 1rem;
+  width: 100%;
+}
+
+.course .tile {
+  background-size: cover;
+  height: 0;
+  padding-top: 50%;
+}
+
+.thesis h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.thesis h3 {
+  padding-top: 1.5rem;
+}
+
+.thesis p {
+  padding: .5rem 0 2rem 0;
+}
+
+.software .tile {
+  background-image: url("../images/course-software.jpg");
+}
+
+.computer-art .tile {
+  background-image: url("../images/course-computer-art.jpg");
+}
+
+.design .tile {
+  background-image: url("../images/course-design.jpg");
+}
+
+.data .tile {
+  background-image: url("../images/course-data.jpg");
+}
+
+.business .tile {
+  background-image: url("../images/course-business.jpg");
+}
+
+.marketing .tile {
+  background-image: url("../images/course-marketing.jpg");
+}
+
+.details h3 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.details h4 {
+  padding-top: .5rem;
+  padding-left: 1rem;
+  color: #404243;
+  margin: .5rem 0;
+}
+
+.details p {
+  padding: .5rem 0 1.5rem 1rem;
+}
+
+.button {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #4C4443;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
+.button span {
+  font-size: 1rem;
+}
+
+.mobile {
+  display: none;
+}
+
+.translucent {
+  opacity: 0.6;
+}
+
+/* ID(s) */
+#emphasis {
+  font-weight: 600;
+}
+
+#lite#808080 {
+  color: #808080;
+  font-weight: 200;
+}
+
+#AbraCadabra {
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  top: 64px;
+  color: #ff0000;
+  background-color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  z-index: 6;
+}
+
+#go {
+  display:none;
+}

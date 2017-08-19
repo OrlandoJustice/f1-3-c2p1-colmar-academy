@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  
+  <link rel="icon" href="./resources/images/favicon.ico" type="image/x-icon">
+  <title>Colmar Academy</title>
+
+  <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
+  <link href="./resources/css/fonts.css" type="text/css" rel="stylesheet">
+  <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+  <link href="./resources/css/styleMobile.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+
+  <script type="text/javascript" src="./resources/javascript/script.js"></script>
+</head>
+
+<body>
+  <!-- Title Bar [Fixed Positioning ~ Variable for Desktop & Mobile] -->
+  <header>
+    <div class="desktop logo">
+      <img src="./resources/images/ic-logo.svg" alt="Lion UpHolding" />
+
+      <a href="index.html" class="desktop logo">
+        <span id="emphasis">COLMAR</span>
+        <span id="litegrey">ACADEMY</span><i class="fa fa-laptop"></i>
+       </a>
+    </div>
+
+    <nav class="desktop" nowrap>
+      <ul role="presentation">
+        <li onMouseOver="show('campus')" onMouseOut="hide('campus')">On campus</li>
+        <li onMouseOver="show('online')" onMouseOut="hide('online')">Online</li>
+        <li onMouseOver="show('company')" onMouseOut="hide('company')">For Companies</li>
+        <li onMouseOver="show('signin')" onMouseOut="hide('signin')">Sign in</li>
+      </ul>
+    </nav>
+
+    <nav class="mobile">
+      <ul role="presentation">
+        <li><a href="index.html"><img src="./resources/images/ic-logo.svg" alt="Lion UpHolding"></a></li>
+        <li><img src="./resources/images/ic-on-campus.svg" alt="Campus"></li>
+        <li><img src="./resources/images/ic-online.svg" alt="Online"></li>
+        <li><img src="./resources/images/ic-login.svg" alt="Login"></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="AbraCadabra" style="visibility:hidden;">&nbsp;</div>
+
+  <!-- First body Section - learn something new everyday -->
+  <div class="desktop learn wrapperG" style="margin-top:64px;" aria-label="Main Body, Section 1 of 4">
+      <table role="presentation">
+          <tr>
+              <td style="width:60%;padding-right:24px;">
+                <img src="./resources/images/banner.jpg" alt="Study Group">
+              </td>
+              <td style="width:40%;vertical-align:middle;">
+                <h1>Learn something new everyday</h1>
+
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+
+                <div class="button">
+                  <span id="start">Start here</span>
+                  <span id="go">Go anywhere!</span>
+                </div>
+              </td>
+          </tr>
+      </table>
+  </div>
+
+  <div class="mobile learn" style="margin-top:64px;" aria-label="Main Body, Section 1 of 4">
+      <img src="./resources/images/banner.jpg" alt="Study Group">
+  </div>
+
+  <div class="mobile learn">
+      <table role="presentation">
+          <tr>
+              <td style="vertical-align:middle;">
+                <h1>Learn something new everyday</h1>
+
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+
+                <div class="button">
+                  <span id="start">Start here</span>
+                  <span id="go">Go anywhere!</span>
+                </div>
+              </td>
+          </tr>
+      </table>
+  </div>
+
+  <!-- Second body Section - it doesn't hurt to keep practicing -->
+  <div class="desktop practice wrapperY" aria-label="Main Body, Section 2 of 4">
+      <table role="presentation">
+          <tr>
+              <td style="width:60%;padding-right:24px;">
+                <img src="./resources/images/information-main.jpg" alt="Self-Study">
+
+                <h2>It doesn't hurt to keep practicing</h2>
+
+                <p>
+                "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Se non accumsan urna. 
+                Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
+                </p>
+
+                <p class="caption">Emanuel, Sr Strategist at Hiring.com</p>
+              </td>
+              <td style="width:40%;vertical-align:top;">
+                <table role="presentation">
+                  <tr>
+                    <td style="width:35%;">
+                      <img src="./resources/images/information-orientation.jpg" alt="Orientation" />
+                    </td>
+                    <td style="width:65%;vertical-align:middle;padding-left:50px;">
+                      <h3>Orientation date</h3>
+
+                      <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+
+                      <a onclick="comingSoon();">Read more</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width:35%;">
+                      <img src="./resources/images/information-campus.jpg" alt="Learning Environment" />
+                    </td>
+                    <td style="width:65%;vertical-align:middle;padding-left:50px;">
+                      <h3>Our campus</h3>
+
+                      <p>Find which campus is close by you</p>
+
+                      <a onclick="comingSoon();">Read more</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width:35%;">
+                      <img src="./resources/images/information-guest-lecture.jpg" alt="Oliver Stack" />
+                    </td>
+                    <td style="width:65%;vertical-align:middle;padding-left:50px;">
+                      <h3>Our guest lecture</h3>
+
+                      <p>Join a keynote with Oliver Stack about music in medical treatment</p>
+
+                      <a onclick="comingSoon();">Read more</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+          </tr>
+      </table>
+  </div>
+
+  <div class="mobile practice" aria-label="Main Body, Section 2 of 4">
+    <table role="presentation">
+      <tr>
+           <td class="practice vertical">
+             <img src="./resources/images/information-orientation-mobile.jpg" alt="Self-Study">
+
+             <div class="indent">
+              <h3>Orientation date</h3>
+
+              <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+
+              <a href="#">Read more</a>
+            </div>
+           </td>
+       </tr>
+       <tr>
+            <td class="practice vertical">
+              <img src="./resources/images/information-campus-mobile.jpg" alt="Self-Study">
+ 
+              <div class="indent">
+               <h3>Orientation date</h3>
+ 
+               <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+ 
+               <a href="#">Read more</a>
+             </div>
+            </td>
+        </tr>
+        <tr>
+             <td class="practice vertical">
+               <img src="./resources/images/information-guest-lecture-mobile.jpg" alt="Self-Study">
+  
+               <div class="indent">
+                <h3>Orientation date</h3>
+  
+                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+  
+                <a href="#">Read more</a>
+              </div>
+             </td>
+         </tr>
+    </table>
+  </div>
+
+  <!-- Third body Section - start learning -->
+  <div class="desktop courses wrapperG" aria-label="Main Body, Section 3 of 4">
+      <h2>Start Learning</h2>
+
+      <!-- Top Row -->
+          <div class="row">
+            <div class="software course translucent">
+              <div class="tile"></div>
+              <div class="details">
+                <h3>Software engineering</h3>
+                <h4>COURSES</h4>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
+              </div>
+            </div>
+
+            <div class="computer-art course translucent">
+              <div class="tile"></div>
+              <div class="details">
+                <h3>Computer art</h3>
+                <h4>COURSES</h4>
+                <p>Imaging &amp Design, Web Design, Motion Graphics &amp Visual Effects, Computer Animation</p>
+              </div>
+            </div>
+
+            <div class="design course translucent">
+              <div class="tile"></div>
+              <div class="details">
+                <h3>Design</h3>
+                <h4>COURSES</h4>
+                <p>User Experience Design, User Research, Visual Design</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Row -->
+          <div class="row">
+            <div class="data course translucent">
+              <div class="tile"></div>
+              <div class="details">
+                <h3>Data</h3>
+                <h4>COURSES</h4>
+                <p>Data Science, Big Data, SQL, Data Visualization</p>
+              </div>
+            </div>
+
+            <div class="business course translucent">
+              <div class="tile"></div>
+              <div class="details">
+                <h3>Business</h3>
+                <h4>COURSES</h4>
+                <p>Product Development, Business Development, Startup</p>
+              </div>
+            </div>
+
+            <div class="marketing course translucent">
+              <div class="tile"></div>
+              <div class="details">
+                <h3>Marketing</h3>
+                <h4>COURSES</h4>
+                <p>Analytics, Content Marketing, Mobile Marketing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+
+  <div class="mobile courses column" aria-label="Main Body, Section 3 of 4">
+    <h1>Start Learning</h1>
+
+    <div class="course-blocks">Software engineering</div>
+    <div class="course-blocks">Computer art</div>
+    <div class="course-blocks">Design</div>
+    <div class="course-blocks">Data</div>
+    <div class="course-blocks">Business</div>
+    <div class="course-blocks">Marketing</div>
+  </div>
+
+  <!-- fourth body Section - thesis exhibit -->
+  <div class="desktop thesis wrapperY" aria-label="Main Body, Section 4 of 4">
+      <h2>Thesis exhibit</h2>
+
+      <table role="presentation">
+          <tr>
+              <td style="width:60%;padding-right:24px;">
+                <video src="resources/videos/thesis.mp4" width="100%" height="auto" autoplay loop>
+                  Video unsupported in your browser.
+                </video>
+
+                <h3>Reimagine urban</h3>
+
+                <p>
+                  "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Se non accumsan urna. 
+                  Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
+                </p>
+              </td>
+              <td style="width:40%;vertical-align:top;">
+                <table role="presentation">
+                  <tr>
+                    <td style="width:35%;">
+                      <img src="./resources/images/thesis-fisma.jpg" alt="Design Process" />
+                    </td>
+                    <td style="width:65%;vertical-align:middle;padding-left:50px;">
+                      <h3>Fisma: Design and Prototype</h3>
+
+                      <p>Designer showcase of new prototype product</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width:35%;">
+                      <img src="./resources/images/thesis-now-and-then.jpg" alt="Architecture" />
+                    </td>
+                    <td style="width:65%;vertical-align:middle;padding-left:50px;">
+                      <h3>Now and then</h3>
+
+                      <p>Research study about New York</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+          </tr>
+      </table>
+  </div>
+
+  <div class="mobile thesis column" aria-label="Main Body, Section 4 of 4">
+    <h1>Thesis exhibits</h1>
+
+    <video src="resources/videos/thesis.mp4" width="100%" height="auto" autoplay loop>
+      Video unsupported in your browser.
+    </video>
+  </div>
+
+  <!-- Footer/Contact Information -->
+  <footer>
+    <div class="copyright">
+      <p>&copy 2016 Colmar Academy. All rights reserved</p>
+    </div>
+
+    <nav class="desktop">
+      <ul role="presentation">
+        <li><a href="https://www.facebook.com/" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/?lang=en" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#" title="Terms">Terms</a></li>
+        <li><a href="#" title="Privacy">Privacy</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
